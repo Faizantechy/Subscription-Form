@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+
+body{
+
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/bg\ img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+   
+}
+
+button{
+
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 800;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+}
+
+h1{
+
+    color: blue;
+}
+
+input{
+
+    margin-top: 10px;
+}
+
+
+.Container{
+
+    width: 400px;
+    border: 3px solid black;
+    padding: 10px;
+    border: none;
+    margin-top: 7rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    position: absolute;
+    z-index: 20000;
+    top: 5rem;
+    background-color: rgba(255, 255, 255, 0.902);
+    font-size: 1.2rem;
+    border-radius: 12px;
+    
+}
+    </style>
+</head>
+<body>
+
+    <div class="Container">
+<h1>Subscription Form:</h1>
+
+
+<input type="checkbox" id="myCheckBox">
+<label for="myCheckbox">Subscribe</label> <br> <br>
+
+<input type="radio" id="masterCard" name="card">
+<label for="masterCard"> Master Card</label><br>
+
+
+<input type="radio" id="visaCard" name="card">
+<label for="masterCard"> Visa Card</label><br>
+
+<input type="radio" id="debitCard" name="card">
+<label for="debitCard"> Debit Card</label>
+
+<br>
+<br>
+
+
+<button class="mySubmit">Submit</button>
+
+<p class="result"></p>
+
+<p class="result2"></p>
+
+
+<script src="app.js"></script>
+
+        
+    </div>
+    
+</body>
+</html>
